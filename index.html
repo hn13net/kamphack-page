@@ -1,1 +1,197 @@
-<!doctypehtml><html lang=de><title>KampHack 2024</title><style>body,html{background:rgba(11,19,42,1);font-family:NuSchoolMunitions,cursive;height:100%}body{position:relative;margin:0}@font-face{font-family:NuSchoolMunitions;src:url(NuSchoolMunitions.ttf)}canvas{position:fixed;left:0;top:0;z-index:0}.container{position:relative;width:100%;font-size:4vw;color:#5cc0be;text-align:center;z-index:1}.animate-beam{animation:getDarker 1s linear infinite}@keyframes getDarker{0%{opacity:1}50%{opacity:.35}100%{opacity:1}}</style><canvas></canvas><div class=container><svg fill=#5cc0be id=logo version=1.1 viewBox="0 0 511 183"width=70vw xmlns=http://www.w3.org/2000/svg><path d="m81.8 85.8c0.609-0.378 0.109-1.92 0.269-2.77-0.0416-21.9-0.0831-43.7-0.125-65.6-12.1-0.175-24.2 2.69-35 8.2 10.8 20.3 21.5 40.5 32.3 60.8 0.771-0.389 1.63-0.597 2.5-0.596z"/><polygon points="81 92.9 81.2 92.8 81 92.8"/><path d="m77.2 94.8c-21.1 10.6-42.3 21.1-63.4 31.7 3.08 6.16 7 11.9 11.6 17 17.5-15.9 35.1-31.9 52.6-47.8l-0.439-0.417z"/><path d="m86 95.2c-1.36 1.33-3.67 1.41-1.87 3.44 10.3 20.5 20.5 41 30.8 61.6 14.5-7.22 26.5-19.2 33.7-33.7-20.9-10.4-41.7-20.9-62.6-31.3z"/><path d="m156 91.1-69.3 0.327c-0.908 1.76 0.369 2.09 1.77 2.52 21.1 7.97 42.2 15.9 63.3 23.9 3.01-8.56 4.51-17.7 4.24-26.8z"/><path d="m76.4 90.2c-20.6-11-41.1-22-61.7-33-1.04 2.53-3.53 5.86-3.26 8.13 21.6 8.5 43.2 17 64.8 25.5l0.037-0.321z"/><path d="m77.4 88.1c-14.6-17.9-29.3-35.7-43.9-53.6-1.09 1.04-3.5 2.07-1.48 3.34 15.1 16.8 30.2 33.6 45.3 50.5z"/><path d="m76.8 88.7c-16.9-15.8-33.7-31.6-50.6-47.5-1.15 1.63-3.94 3.55-3.9 5.19 18.1 14.2 36.1 28.5 54.2 42.7z"/><path d="m80.6 96.8c-2.34 23.6-4.68 47.3-7.02 70.9 1.52 0.0435 3.94 1.01 3.41-1.32 1.26-23.2 2.52-46.4 3.78-69.6z"/><path d="m90.2 82.6h-0.393l-6.15 5.71c-0.569-0.349-1.23-0.561-1.95-0.561-2.07 0-3.75 1.68-3.75 3.75 0 2.07 1.68 3.74 3.75 3.74s3.75-1.68 3.75-3.74c0-0.625-0.167-1.2-0.438-1.72l5.58-5.18c14.4 6e-3 392 1e-3 413 1e-3v-2c-21.3 1e-3 -410 1e-3 -414 0z"/><path d="m95.9 70.8v-29.6h8.54v29.6zm34.9 0v-10.9h-22.4v-7.8h19.5v-0.0296h7.15q4.33 0 4.33 4.24v14.4zm-21.1-22.6 12.6-7.03h16.5l-12.6 7.03z"/><path d="m146 70.8v-23.7q0.534-5.84 7.92-5.84h23.2v9.28h-22.8v20.3zm35.1 0v-5.31h-22.7v-9.22h22.7l0.0593-15.1q6.76 0.385 8.39 6.32v23.3z"/><path d="m205 70.8h-7.32v-26.5q1.13-3.14 4.3-3.14l2.82 0.474v13.9h0.0297zm28 0 0.119-14.4h0.0297v-14.7l2.85-0.474q3.14 0 4.3 3.14v26.5zm-14-9.9q-1.96 0-3.68-1.42l-1.19-0.979-5.1-3.85v-10.2l9.96 7.86 0.445-0.356q1.36-1.1 5.57-4.42l4.09-3.2v10.2l-5.28 3.97-1.22 1.01q-1.69 1.39-3.62 1.39z"/><path d="m248 70.8v-29.7h36.5q2.88 0 4.3 0.652 1.96 0.89 2.55 3.41l-0.0297 9.84h0.0297v1.39q-0.593 2.46-2.55 3.38-1.39 0.652-4.3 0.652h-24v-8.99h22.2v-2.85h-26.2v22.2z"/><path d="m297 70.8v-29.7h8.57v4.74h-0.0296v21h0.0296v3.91zm35 0v-10.9h-22.4v-7.86h22.4v-10.9h8.57v29.7z"/><path d="m349 70.8v-23.7q0.534-5.84 7.92-5.84h23.2v9.28h-22.8v20.3zm35.1 0v-5.31h-22.7v-9.22h22.7l0.0593-15.1q6.76 0.385 8.39 6.32v23.3z"/><path d="m407 70.8q-2.94 0-4.3-0.623-1.99-0.919-2.55-3.41v-5.16h-0.0297v-3.65h8.6v2.85h0.0296v2.52h26.3v-0.0593h8.63v7.53zm-6.88-16.8v-2.73h0.0297v-6.05q0.563-2.49 2.55-3.41 1.42-0.652 4.3-0.652h36.7v7.53h-8.63v-0.0296h-26.3v3.08h-0.0296v2.25z"/><path d="m448 70.8v-29.6h8.54v29.6zm34.9 0v-10.9h-22.4v-7.8h19.5v-0.0296h7.15q4.33 0 4.33 4.24v14.4zm-21.1-22.6 12.6-7.03h16.5l-12.6 7.03z"/></svg><br>10. - 12. mai 2024<br><br>muenster<br><br></div><script>document.addEventListener("DOMContentLoaded",function(){let t=document.querySelector("canvas"),e=t.getContext("2d");t.width=window.innerWidth,t.height=window.innerHeight;let s=[];class n{constructor(){this.segments=[],this.newSegment(),this.newSegmentPossibility=.002,this.maxLength=1/3*t.width}update(){let e=this.segments[this.segments.length-1];e.length+=1,Math.random()<this.newSegmentPossibility&&e.length>.2*this.maxLength&&this.newSegment();let s=this.segments.reduce((t,e)=>t+e.length,0);if(s>this.maxLength){let n=0;if(this.segments[n].length>0)this.segments[0].length--,this.segments[0].start=[this.segments[0].start[0]+Math.cos(this.segments[0].angle*Math.PI/180),this.segments[0].start[1]+Math.sin(this.segments[0].angle*Math.PI/180)];else{for(;0===this.segments[n].length;)n++;this.segments.splice(0,n)}(this.segments[0].start[0]<0||this.segments[0].start[0]>t.width||this.segments[0].start[1]<0||this.segments[0].start[1]>t.height)&&this.reset()}}newSegment(){let e=0===this.segments.length?-1:this.segments[this.segments.length-1].angle,s=e;for(;s==e||s==this.oppositeAngle(e);)s=[0,90,180,270][Math.floor(4*Math.random())];let n;if(0===this.segments.length)n=[Math.random()*t.width,Math.random()*t.height];else{let h=this.segments[this.segments.length-1];n=[h.start[0]+Math.cos(h.angle*Math.PI/180)*h.length,h.start[1]+Math.sin(h.angle*Math.PI/180)*h.length]}this.segments.push({start:n,angle:s,length:0})}oppositeAngle(t){return(t+180)%360}reset(){this.segments=[],this.newSegment()}draw(){e.beginPath(),e.moveTo(this.segments[0].start[0],this.segments[0].start[1]),this.segments.forEach(t=>{e.lineTo(t.start[0]+Math.cos(t.angle*Math.PI/180)*t.length,t.start[1]+Math.sin(t.angle*Math.PI/180)*t.length)}),e.strokeStyle="#264f4f",e.lineWidth=5,e.stroke()}}let h=document.querySelectorAll("#logo>path"),i=[],g=0;setInterval(function t(){if(g%2==0){let e=Math.floor(4*Math.random());for(let s=0;s<e;s++){let n=Math.floor(Math.random()*h.length);i.push(n),h[n].classList.add("animate-beam")}}else i.forEach(t=>{h[t].classList.remove("animate-beam")});g<9?g++:g=0},1e3);for(let l=0;l<10;l++)s.push(new n);!function n(){e.clearRect(0,0,t.width,t.height),s.forEach(t=>{t.update(),t.draw()}),requestAnimationFrame(n)}()});</script>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>KampHack</title>
+    <link rel="stylesheet" href=" css/main.css">
+</head>
+
+<body>
+    <canvas></canvas>
+    <div class="topnav">
+        <div>
+            
+            <a href="/#">Home</a>
+            
+            <a href="/#tickets">Tickets</a>
+            
+            <a href="/#faq">FAQ</a>
+            
+            <a href="https://md.warpzone.ms/s/wiki-kamphack">Wiki</a>
+            
+            <a href="https://pretalx.c3voc.de/kamphack-2024/cfp">CfP</a>
+            
+        </div>
+    </div>
+    <a class="icon" onclick="toggleMenu()">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </a>
+    <div class="container">
+        <div>
+            <div style="display: flex; justify-content: center; margin-top: 5px; margin-bottom: -20px;"><svg id="logo" width="80%" enable-background="new 0 0 511.475 182.991" fill="#5cc0be" version="1.1" viewBox="0 0 511 183" xmlns="http://www.w3.org/2000/svg">
+<path d="m81.8 85.8c0.609-0.378 0.109-1.92 0.269-2.77-0.0416-21.9-0.0831-43.7-0.125-65.6-12.1-0.175-24.2 2.69-35 8.2 10.8 20.3 21.5 40.5 32.3 60.8 0.771-0.389 1.63-0.597 2.5-0.596z"/>
+<polygon points="81 92.9 81.2 92.8 81 92.8"/>
+<path d="m77.2 94.8c-21.1 10.6-42.3 21.1-63.4 31.7 3.08 6.16 7 11.9 11.6 17 17.5-15.9 35.1-31.9 52.6-47.8l-0.439-0.417z"/>
+<path d="m86 95.2c-1.36 1.33-3.67 1.41-1.87 3.44 10.3 20.5 20.5 41 30.8 61.6 14.5-7.22 26.5-19.2 33.7-33.7-20.9-10.4-41.7-20.9-62.6-31.3z"/>
+<path d="m156 91.1-69.3 0.327c-0.908 1.76 0.369 2.09 1.77 2.52 21.1 7.97 42.2 15.9 63.3 23.9 3.01-8.56 4.51-17.7 4.24-26.8z"/>
+<path d="m76.4 90.2c-20.6-11-41.1-22-61.7-33-1.04 2.53-3.53 5.86-3.26 8.13l64.8 25.5 0.037-0.321z"/>
+<path d="m77.4 88.1c-14.6-17.9-29.3-35.7-43.9-53.6-1.09 1.04-3.5 2.07-1.48 3.34 15.1 16.8 30.2 33.6 45.3 50.5z"/>
+<path d="m76.8 88.7c-16.9-15.8-33.7-31.6-50.6-47.5-1.15 1.63-3.94 3.55-3.9 5.19 18.1 14.2 36.1 28.5 54.2 42.7z"/>
+<path d="m80.6 96.8c-2.34 23.6-4.68 47.3-7.02 70.9 1.52 0.0435 3.94 1.01 3.41-1.32 1.26-23.2 2.52-46.4 3.78-69.6z"/>
+<path d="m90.2 82.6h-0.393l-6.15 5.71c-0.569-0.349-1.23-0.561-1.95-0.561-2.07 0-3.75 1.68-3.75 3.75s1.68 3.74 3.75 3.74 3.75-1.68 3.75-3.74c0-0.625-0.167-1.2-0.438-1.72l5.58-5.18c14.4 6e-3 392 1e-3 413 1e-3v-2c-21.3 1e-3 -410 1e-3 -414 0z"/>
+<g stroke-width="1.25" aria-label="kamphack">
+<path d="m95.9 70.8v-29.6h8.54v29.6zm34.9 0v-10.9h-22.4v-7.8h19.5v-0.0296h7.15q4.33 0 4.33 4.24v14.4zm-21.1-22.6 12.6-7.03h16.5l-12.6 7.03z"/>
+<path d="m146 70.8v-23.7q0.534-5.84 7.92-5.84h23.2v9.28h-22.8v20.3zm35.1 0v-5.31h-22.7v-9.22h22.7l0.0593-15.1q6.76 0.385 8.39 6.32v23.3z"/>
+<path d="m205 70.8h-7.32v-26.5q1.13-3.14 4.3-3.14l2.82 0.474v13.9h0.0297zm28 0 0.119-14.4h0.0297v-14.7l2.85-0.474q3.14 0 4.3 3.14v26.5zm-14-9.9q-1.96 0-3.68-1.42l-1.19-0.979-5.1-3.85v-10.2l9.96 7.86 0.445-0.356q1.36-1.1 5.57-4.42l4.09-3.2v10.2l-5.28 3.97-1.22 1.01q-1.69 1.39-3.62 1.39z"/>
+<path d="m248 70.8v-29.7h36.5q2.88 0 4.3 0.652 1.96 0.89 2.55 3.41l-0.0297 9.84h0.0297v1.39q-0.593 2.46-2.55 3.38-1.39 0.652-4.3 0.652h-24v-8.99h22.2v-2.85h-26.2v22.2z"/>
+<path d="m297 70.8v-29.7h8.57v4.74h-0.0296v21h0.0296v3.91zm35 0v-10.9h-22.4v-7.86h22.4v-10.9h8.57v29.7z"/>
+<path d="m349 70.8v-23.7q0.534-5.84 7.92-5.84h23.2v9.28h-22.8v20.3zm35.1 0v-5.31h-22.7v-9.22h22.7l0.0593-15.1q6.76 0.385 8.39 6.32v23.3z"/>
+<path d="m407 70.8q-2.94 0-4.3-0.623-1.99-0.919-2.55-3.41v-5.16h-0.0297v-3.65h8.6v2.85h0.0296v2.52h26.3v-0.0593h8.63v7.53zm-6.88-16.8v-2.73h0.0297v-6.05q0.563-2.49 2.55-3.41 1.42-0.652 4.3-0.652h36.7v7.53h-8.63v-0.0296h-26.3v3.08h-0.0296v2.25z"/>
+<path d="m448 70.8v-29.6h8.54v29.6zm34.9 0v-10.9h-22.4v-7.8h19.5v-0.0296h7.15q4.33 0 4.33 4.24v14.4zm-21.1-22.6 12.6-7.03h16.5l-12.6 7.03z"/>
+</g>
+<g stroke-width="1.25" aria-label="10. - 12. Mai 2024">
+<path d="m187 111v-9.88h-2.49v-1.6q0.389-1.68 2.07-1.79l0.417-0.0278v-0.0417h4.25v13.3z"/>
+<path d="m198 111q-1.38 0-2.01-0.292-0.917-0.417-1.19-1.6v-4.12h4.04v2.5h13.4v-2.49h4.04v4.11q-0.278 1.17-1.21 1.6-0.639 0.292-2 0.292zm-3.21-7.89v-4.11q0.278-1.18 1.19-1.6 0.639-0.292 2.01-0.292h15.1q1.36 0 2 0.292 0.931 0.431 1.21 1.6v4.11h-4.04v-2.49h-13.4v2.49z"/>
+<path d="m221 108h4.04v3.17h-4.04z"/>
+<path d="m240 106v-3.31h19.7v3.31z"/>
+<path d="m278 111v-9.88h-2.49v-1.6q0.389-1.68 2.07-1.79l0.417-0.0278v-0.0417h4.25v13.3z"/>
+<path d="m286 111v-7.15q0.264-1.18 1.19-1.61 0.639-0.292 2.01-0.292h13.1v-1.33h-5.24v-3.5h6.06q1.35 0 2.01 0.306 0.917 0.417 1.19 1.58v5.28q-0.278 1.15-1.19 1.57-0.667 0.306-2.01 0.306h-13.1v1.33h5.21v3.51zm11.1 0v-3.51h9.26v3.51zm-11.1-10.4v-3.5h9.25v3.5z"/>
+<path d="m311 108h4.04v3.17h-4.04z"/>
+<path d="m334 111h-3.43v-12.4q0.528-1.47 2.01-1.47l1.32 0.222v6.51h0.0139zm13.1 0 0.0556-6.76h0.0139v-6.9l1.33-0.222q1.47 0 2.01 1.47v12.4zm-6.56-4.64q-0.917 0-1.72-0.667l-0.556-0.458-2.39-1.81v-4.78l4.67 3.68 0.208-0.167q0.639-0.514 2.61-2.07l1.92-1.5v4.78l-2.47 1.86-0.569 0.472q-0.792 0.653-1.69 0.653z"/>
+<path d="m355 111v-11.1q0.25-2.74 3.71-2.74h10.9v4.35h-10.7v9.5zm16.4 0v-2.49h-10.7v-4.32h10.7l0.0278-7.08q3.17 0.181 3.93 2.96v10.9z"/>
+<path d="m379 111v-13.3h4.24v13.3z"/>
+<path d="m399 111v-7.15q0.264-1.18 1.19-1.61 0.639-0.292 2.01-0.292h13.1v-1.33h-5.24v-3.5h6.06q1.35 0 2.01 0.306 0.917 0.417 1.19 1.58v5.28q-0.278 1.15-1.19 1.57-0.667 0.306-2.01 0.306h-13.1v1.33h5.21v3.51zm11.1 0v-3.51h9.26v3.51zm-11.1-10.4v-3.5h9.25v3.5z"/>
+<path d="m426 111q-1.38 0-2.01-0.292-0.917-0.417-1.19-1.6v-4.12h4.04v2.5h13.4v-2.49h4.04v4.11q-0.278 1.17-1.21 1.6-0.639 0.292-2 0.292zm-3.21-7.89v-4.11q0.278-1.18 1.19-1.6 0.639-0.292 2.01-0.292h15.1q1.36 0 2 0.292 0.931 0.431 1.21 1.6v4.11h-4.04v-2.49h-13.4v2.49z"/>
+<path d="m447 111v-7.15q0.264-1.18 1.19-1.61 0.639-0.292 2.01-0.292h13.1v-1.33h-5.24v-3.5h6.06q1.35 0 2.01 0.306 0.917 0.417 1.19 1.58v5.28q-0.278 1.15-1.19 1.57-0.667 0.306-2.01 0.306h-13.1v1.33h5.21v3.51zm11.1 0v-3.51h9.26v3.51zm-11.1-10.4v-3.5h9.25v3.5z"/>
+<path d="m488 111v-5.21h-0.0139v-3.47h0.0139v-5.08h4v13.8zm-13.1-5.21q-1.33 0-1.99-0.292-0.931-0.417-1.19-1.58v-6.81h4.01v5.21h10.4v3.47z"/>
+</g>
+</svg>
+</div>
+
+<hr />
+<h2 id="einleitung">Einleitung</h2>
+<p>Wir freuen uns, euch zum KampHack 2024 in Münster einzuladen!<br />
+Dieses einzigartige Hacker-Event wird von der <a href="https://warpzone.ms/perma_about/">Warpzone e.V.</a> organisiert und findet in dessen Räumen und denen des KCM's am Hawerkamp statt.<br />
+Es ist die perfekte Gelegenheit, sich mit technikinteressierten Wesen auszutauschen, Neues zu lernen, sowie gemeinsam zu hacken und zu basteln.</p>
+<h3 id="location">Location</h3>
+<p><strong>Haus G, Am Hawerkamp 31, 48155 Münster</strong></p>
+<h3 id="was-euch-erwartet">Was euch erwartet:</h3>
+<ul>
+<li>
+<p><strong>Spannende Talks und Workshops:</strong> Zu Themen rund um Elektronik, Informatik, Physik und vieles mehr.</p>
+</li>
+<li>
+<p><strong>Hackcenter:</strong> Ein Platz zum hacken und basteln mit allerlei Elektronikwerkzeug, Messgeräten, Lötequipment und mehr. Bringt eure Projekte mit!</p>
+</li>
+<li>
+<p><strong>Chillout-Lounge:</strong> Genießt kreative Pausen mit Waffeln, Popcorn, Mate und connected mit anderen Teilnehmern.</p>
+</li>
+</ul>
+<h3 id="fur-wen-ist-der-kamphack">Für wen ist der KampHack?</h3>
+<p>Jeder ist willkommen!<br />
+Aber besonders viel Spaß wirst du bei uns haben, wenn du dich für IT, Elektronik, Physik, Mathe, Netzpolitik, digitale Kunst, Computerspiele, ... interessierst.</p>
+<hr />
+<h2 id="tickets">Tickets:</h2>
+<ul>
+<li>
+<p>Dieses Jahr gibt es Tagestickets für den KampHack</p>
+</li>
+<li>
+<p>Die maximale Teilnehmer*innenzahl beträgt 60 Wesen / Tag</p>
+</li>
+<li>
+<p>Der Preis wird sich auf ca. 10€ / Tag belaufen</p>
+</li>
+<li>
+<p>Im Ticket ist Frühstück und Abendessen enthalten</p>
+</li>
+</ul>
+<p><br />
+<strong>Bitte schaue zu einem späteren Zeitpunkt vorbei, um ein Ticket zu kaufen.</strong></p>
+<hr />
+<h2 id="faq">FAQ</h2>
+<ul>
+<li>
+<p><strong>Wie sieht es mit Verpflegung aus?</strong>  </p>
+<p>Wir werden täglich ein langes Frühstück und veganes Abendessen bereitstellen.<br />
+Getränke werden zu Selbstkosten (1 - 1,50€) bereitgestellt.<br />
+Meist gibt es noch Waffeln und Popcorn!</p>
+</li>
+<li>
+<p><strong>Was ist die Warpzone?</strong>  </p>
+<p>Die Warpzone e.V. ist ein Hackerspace und der Veranstalter des KampHacks. Mehr Informationen <a href="https://warpzone.ms/perma_about/">hier</a>.</p>
+</li>
+<li>
+<p><strong>Ich war noch nie in einem Hackerspace, darf ich trotzdem kommen?</strong>  </p>
+<p>Klar! Der KampHack ist eine prima Gelegenheit mal einen örtlichen Hackerspace kennenzulernen. Es ist egal, ob du schon Vorkenntnisse hast, oder einfach nur zuschauen und andere Leute treffen möchtest - Wir sind offen für alle!</p>
+</li>
+<li>
+<p><strong>Ab wie viel Uhr kann ich kommen?</strong>  </p>
+<p>Aktuell haben wir noch keine Öffnungszeiten erarbeitet. Rechne aber mal damit, dass wir die Tür ab ca. 12uhr öffnen.</p>
+</li>
+<li>
+<p><strong>Ich möchte einen Vortrag oder einen Workshop halten</strong>  </p>
+<p>Super! Klick doch bitte in der Navigation auf CfP und bewerbe dich.</p>
+</li>
+<li>
+<p><strong>Was soll / kann /darf ich mitbringen??</strong>  </p>
+<ul>
+<li>Mehrfachsteckdosen für die Stromversorgung an den Tischen</li>
+<li>IP-Fähiges Gerät (z.B. Laptop)</li>
+<li>Viele bunte LED's</li>
+<li>DECT-Telefon</li>
+<li>Bastelprojekte (Wenn ihr Starkstrom benötigt klärt das bitte mit der Orga unter verwaltung@warpzone.ms ab)</li>
+</ul>
+</li>
+<li>
+<p><strong>Was ist zum basteln vorhanden?</strong>  </p>
+<ul>
+<li>Diverse Lötstationen (Konventionell, Heißluft, Entlöt, Portabel, Ofen)...</li>
+<li>Digitales Mikroskop</li>
+<li>Netzteile</li>
+<li>Oszilloskope</li>
+<li>Käbelchen</li>
+<li>Akku schweiß Gerät</li>
+<li>3D-Drucker</li>
+<li>Diverse Programmer (z.B. ST-Link)</li>
+<li>uvm.</li>
+</ul>
+</li>
+<li>
+<p><strong>Ich möchte ein Kunstprojekt ausstellen</strong>  </p>
+<p>Super! Über Kunst freuen wir uns immer. Bitte melde dein Kunstprojekt unter verwaltung@warpzone.ms an.<br />
+Wir haben aktuell kein Budget für Kunst eingeplant und können euch deshalb keine finanzielle Unterstützung bei einem Kunstprojekt versprechen.</p>
+</li>
+<li>
+<p><strong>Sind Foto- / Filmaufnahmen gestattet?</strong>  </p>
+<p>Ausschließlich, wenn sich alle auf dem Foto zu erkennende Personen <strong>vor</strong> Anfertigung der Aufnahme damit einverstanden erklärt haben!<br />
+Bei aufzuzeichnenden Talks wird das Publikum <strong>nicht</strong> gefilmt!</p>
+</li>
+<li>
+<p><strong>Wie komme ich zum KampHack?</strong>  </p>
+<p>Am Ende der Straße “Am Hawerkamp” findest du den ehemaligen Pebüso Industriekomplex. Die Veranstaltung findet in Haus G, dem ersten Haus auf dem Gelände, statt.  </p>
+<p><strong>Auto / Fahrrad:</strong> Du kannst direkt vor Haus G, oder auf der Zufahrtsstraße parken.  </p>
+<p><strong>Bus:</strong> Die näheste Haltestelle ist "Halle Münsterland". Von hier läuft man ca. 5min zum KampHack.  </p>
+<p><strong>Bahn:</strong> Die näheste Haltestelle ist "Münster Hauptbahnhof". Von hier läuft man ca. 15min zum KampHack. Von hier kann auch ein Bus genommen werden.</p>
+</li>
+<li>
+<p><strong>Weitere Fragen?</strong></p>
+<p>Bei ungeklärten Fragen kannst Du uns gerne unter <a href="mailto:verwaltung@warpzone.ms">verwaltung@warpzone.ms</a> kontaktieren.  </p>
+<p>Wir haben auch einen Matrix-Channel unter: <a href="https://matrix.to/#/#KampHack:matrix.warpzone.ms">#KampHack:matrix.warpzone.ms</a></p>
+</li>
+</ul>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.warpzone.ms/perma_impressum/">Impressum</a>
+    </div>
+    <script src=" js/main.js"></script>
+    <script src=" js/strahlen.js"></script>
+</body>
+
+</html>
