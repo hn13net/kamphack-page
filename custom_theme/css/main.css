@@ -1,3 +1,4 @@
+/* Verbessertes CSS für Topbar und responsive Sidebar */
 :root {
     --primary-color: #5cc0be;
     --secondary-color: #3a8d8b;
@@ -8,6 +9,7 @@
     --neutral-color: #4a4a4a;
 }
 
+/* Body */
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -15,6 +17,7 @@ body {
     margin-top: 51px;
 }
 
+/* Links */
 a {
     color: var(--accent-color);
     text-decoration: none;
@@ -46,6 +49,7 @@ canvas {
     overflow: auto;
 }
 
+/* Topbar */
  .topnav {
     background-color: var(--background-secondary-color  );
     overflow: hidden;
@@ -61,6 +65,7 @@ canvas {
     width: 59%;
   }
   
+  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
@@ -71,16 +76,19 @@ canvas {
     font-size: 17px;
   }
   
+  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
+  /* Add an active class to highlight the current page */
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
   }
 
+  /* Footer */
   .footer {
     display: flex;
     justify-content: center;
