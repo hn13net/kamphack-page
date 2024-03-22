@@ -4,9 +4,9 @@
 
 ## Einleitung
 
-Wir freuen uns, euch zum KampHack 2024 in Münster einzuladen!  
+Wir freuen uns, den KampHack 2024 in Münster anzukündigen!  
 Dieses einzigartige Hacker-Event wird von der [Warpzone e.V.](https://warpzone.ms/perma_about/) organisiert und findet in dessen Räumen und denen des KCM's am Hawerkamp statt.  
-Es ist die perfekte Gelegenheit, sich mit technikinteressierten Menschen auszutauschen, Neues zu lernen, sowie gemeinsam zu hacken und zu basteln.
+Es ist die perfekte Gelegenheit, sich mit technikinteressierten Menschen auszutauschen, Neues zu lernen, sowie gemeinsam zu hacken und basteln.
 
 ### Location
 
@@ -14,9 +14,9 @@ Es ist die perfekte Gelegenheit, sich mit technikinteressierten Menschen auszuta
 
 ### Was euch erwartet:
 
-- **Spannende Talks und Workshops:** Zu Themen rund um Elektronik, Informatik, Physik und vieles mehr.
+- **Spannende Talks und Workshops:** Zu Themen rund um Informatik, Elektronik, Physik und vieles mehr.
 
-- **Hackcenter:** Ein Platz zum hacken und basteln mit allerlei Elektronikwerkzeug, Messgeräten, Lötequipment und mehr. Bringt eure Projekte mit!
+- **Hackcenter:** Ein Platz zum hacken und basteln mit allerlei Elektronikwerkzeugen, Messgeräten, Lötequipment und mehr. Bringt eure Projekte mit!
 
 - **Chillout-Lounge:** Genießt kreative Pausen mit Waffeln, Popcorn, Mate und connected mit anderen Teilnehmer*innen.
 
@@ -29,15 +29,7 @@ Aber besonders viel Spaß wirst du bei uns haben, wenn du dich für IT, Elektron
 
 ## Tickets:
 
-- Dieses Jahr gibt es Tagestickets für den KampHack
-
-- Die maximale Teilnehmer*innenzahl beträgt 60 Wesen / Tag
-
-- Im Ticket ist Frühstück und Abendessen enthalten
-
-<br />
-
-[Kauf dein Ticket hier](https://pretix.eu/warpzonems/kamphack-2024/)
+[Kauf Dein Ticket hier](https://pretix.eu/warpzonems/kamphack-2024/)
 
 ---
 
