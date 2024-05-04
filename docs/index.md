@@ -53,10 +53,6 @@ Aber besonders viel Spaß wirst du bei uns haben, wenn du dich für IT, Elektron
 
     Aktuell haben wir noch keine Öffnungszeiten erarbeitet. Rechne aber mal damit, dass wir die Tür ab ca. 12uhr öffnen.
 
-- **Ich möchte einen Vortrag oder einen Workshop halten**  
-
-    Super! Klick doch bitte in der Navigation auf CfP und bewerbe dich.
-
 - **Was soll / kann /darf ich mitbringen??**  
 
     - Mehrfachsteckdosen für die Stromversorgung an den Tischen

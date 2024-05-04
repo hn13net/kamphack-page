@@ -4,7 +4,8 @@ nav:
   - Tickets: /#tickets
   - FAQ: /#faq
   - Wiki: https://md.warpzone.ms/s/wiki-kamphack
-  - CfP: https://pretalx.c3voc.de/kamphack-2024/cfp
+  - Fahrplan: https://pretalx.c3voc.de/kamphack-2024/schedule/
+  - Engelsystem: https://md.warpzone.ms/kamphack24_engelsystem
 theme:
   name: null
   custom_dir: 'custom_theme/'
